@@ -1,0 +1,3 @@
+sudo: true
+laguage: android
+jdk: oraclejdk8
