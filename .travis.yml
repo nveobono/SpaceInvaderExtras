@@ -47,6 +47,9 @@ script:
         - ./gradlew clean
         - ./gradlew assembleDebug
         - ./gradlew assembleDebugAndroidTest
+        - pwd
+        - ls -la
+        - chmod +x ./gradlew
 
 before_install:
           - mkdir "$ANDROID_HOME/licenses" || true
